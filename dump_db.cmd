@@ -1,0 +1,1 @@
+sqlite3 databases\\testdb1.db .dump > backups\testdump.sql  ".open backupInfo.db" "insert into datetimes(date_text, date_real, date_int) values(datetime('now', 'localtime'), julianday('now', 'localtime'), strftime('%%s', 'now', 'localtime'));"

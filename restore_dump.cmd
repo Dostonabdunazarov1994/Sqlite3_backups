@@ -1,0 +1,1 @@
+sqlite3 restores\\restoredDump.db ".read backups\\testdump.sql"

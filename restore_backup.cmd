@@ -1,0 +1,1 @@
+sqlite3 restores\testdb_restore.db ".restore backups\\testdb_bak.db"

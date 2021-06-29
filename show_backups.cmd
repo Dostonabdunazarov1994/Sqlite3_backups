@@ -1,0 +1,2 @@
+sqlite3 backupInfo.db ".headers on" ".mode column" "select id, datetime(date_text) date_from_text, datetime(date_real) date_from_real, datetime(date_int, 'unixepoch') date_from_int from datetimes;"
+pause
